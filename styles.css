@@ -31,6 +31,8 @@
     box-sizing: border-box;
 }
 
+
+
 #menu ul {  
     padding: 0px;
     margin:0px;
@@ -38,6 +40,8 @@
     font-size: 20px;
     font-family:'Moxa','Times New Roman';
     color:rgb(252, 252, 252) 
+       
+    
 } 
 
 #menu ul li{
@@ -45,6 +49,8 @@
     padding: 0px;
     margin: 0px;
     transform:scale(0.70);
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 #menu ul a{
@@ -52,23 +58,37 @@
     background-color: rgba(233, 180, 36, 0.849);
     border-radius: 10px;
     color: rgb(0, 0, 0)
+
 }
 
-#form{
-    background-color: rgb(34, 82, 34);
-    margin:  10px;
-    width: 100px;
-    padding: 200px;
+#body2{
+    background-color: color-mix(in srgb, rgb(23, 63, 23) 50%, rgb(0, 0, 0) 50%);
+}
+#form { 
+    margin: 150px;
+    padding: 0px;
     text-align: center;
-    border-radius: 10px;
+}
+
+#area
+{
+    
+  position:relative;
+  left:37%;
+  top:15%;
+  width:320px;
+  height:270px;
+  color:aliceblue
 }
 
 #h2{
-    color: rgb(13, 70, 13);
+    color: rgb(23, 54, 23);
     text-align: center;
     font-family: 'Kolak';
     font-size:50px;
-    background-color:rgb(236, 211, 180) 
+   background-color:rgb(236, 211, 180);
+    
+    
 }
 
 
@@ -80,9 +100,8 @@
     font-weight: 400;
     font-style: normal;
     margin: 0px;
-    background-color:rgb(236, 211, 180)
+    background-color:rgb(236, 211, 180);
 }
-
 
 #title1{
     text-align: center;
@@ -92,7 +111,7 @@
     font-style: normal;
     color:rgb(0, 0, 0);
     background-color:rgb(236, 211, 180);
-    margin:0px
+    margin:0px;
 }
 
 #title2{
@@ -102,8 +121,8 @@
     font-weight: 400;
     font-style: normal;
     color:rgb(187, 155, 11);
-    background-color:rgb(13, 70, 13);
-    margin:0px
+    margin:0px;
+
 }
 
 #title3{
@@ -114,12 +133,10 @@
     font-style: normal;
     color:rgb(2, 2, 2);
     background-color:rgb(236, 211, 180);
-    margin:0px
+    margin:0px;
 }
 
 #p1{
-    background-color: rgb(13, 70, 13);
-    border-radius: 10px 30px 60px 130px;
     width: 90%;
     right: 30px;
     text-align: center;
@@ -130,7 +147,6 @@
 
 #p2{
     background-color:rgb(236, 211, 180);
-    border-radius: 10px 30px 60px 130px;
     width: 90%;
     right: 30%;
     text-align: center;
@@ -140,14 +156,14 @@
 }
 
 #p3{
-    background-color:rgb(13, 70, 13);
-    border-radius: 10px 30px 60px 130px;
+    background-color:rgb(236, 211, 180);
     width: 90%;
     right: 30%;
     text-align: center;
     list-style: none;
     color: rgb(0, 0, 0);
     font-size: 20px;
+
 }
 
 #formação{
@@ -156,52 +172,87 @@
 }
 
 #linguas{
-    background-color:rgb(13, 70, 13);
     text-align: center;
 }
 
 #habilidadeshard{
-    background-color: rgb(13, 70, 13); 
+    background-color:rgb(236, 211, 180);
 }
 
 #habilidadessoft{
-    background-color: rgb(13, 70, 13);
+    background-color:rgb(236, 211, 180);
 }
-
 #projeto{
+    margin: 15px;
     background-color:rgb(236, 211, 180);
     text-align: center;
 }
 
-#redes{
+#redes ul {
+    position:unset;
+    list-style:none;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px; 
+    text-decoration: none;
     display: inline;
     background-color:rgb(236, 211, 180);
-    text-align: center;
+    text-align: justify;
 }
 
 .relative-box{
     position: relative;
-    background-color: rgb(13, 70, 13);
+    background-color: rgb(23, 54, 23);
     font-family: 'Moxa';
-    color: aliceblue; 
-}
+    color: aliceblue;
     
+    
+}
+
+.relative-box-media {
+    position: block;
+    background-color: rgb(23, 54, 23);
+    font-family: 'Moxa';
+    color: aliceblue;
+}
+
 
 .relative-box-port{
     position: absolute;
-    background-color: rgb(13, 70, 13);
+    background-color: rgb(23, 54, 23);
     font-family: 'Moxa';
+    font-style:italic;
     color: aliceblue;
-    top:150px;
-    left:500px;
+    top:95px;
+    left:550px;
+    font-size: 25px;
+    width: 0px;
+    margin-top: 100px;
 }
+
+.dif{
+    position: absolute;
+    left: -2em;
+    z-index: 999;
+}
+
 
 #video{
     width: 200px;
     margin: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1px;
     border-radius: 200px;
-    top:0px;
-    left:0px;      
+    margin-left:60px; 
+    top:30px
 }
+
+
+#audio{
+    opacity: 0.02;
+    left: 40px;
+    border-radius: 2%;
+}
+
+
+
