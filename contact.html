@@ -8,19 +8,25 @@
         @import url(styles.css);
     </style>
 </head>
-<form id="form">
-    <form action="/processar-formulario" method="post"></form>
 
-    <label for="Nome">Nome:</label>
-        <input type="text" name="Nome" id="Nome" required> <br> <br>
+<body id="body2">
+    <div id="area"> 
+  <form id="form">
+    <form id="dataone" action="/processar-formulario" method="post"></form>
+      <legend> <h1> Escreva-me!</h1></legend>
+    <label id= data for="Nome">Nome:</label>
+         <input id="data" type="text" name="Nome" id="Nome" required> <br> <br>
 
-    <label for="Email">Email:</label> 
-    <input type="email" name="Email" id="Email" required> <br> <br>
+    <label id="data" for="Email">Email:</label> 
+         <input id="data" type="email" name="Email" id="Email" required> <br> <br>
 
-    <label for="Mensagem">Mensagem</label> <br>
-    <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" required></textarea> <br> <br>
+    <label id="data" for="Mensagem">Mensagem</label> <br>
 
-    <input type="submit" value="Enviar">
-    </form>
+    <textarea id="data" name="Mensagem" id="Mensagem" cols="30" rows="10" required></textarea> <br> <br>
+
+    <input class="data" type="submit" value="Enviar">
+    
+   </form>
+  </div>
 </body>
 </html>
